@@ -182,6 +182,8 @@ _PROCESSOR_DICT = {
                                          'BertDecoder',     HFTokenizerConverter.bpe_decoder, None, None),
     "GPT2Tokenizer":        TokenOpParam('GPT2Tokenizer',   HFTokenizerConverter.bpe_tokenizer,
                                          'BpeDecoder',      HFTokenizerConverter.bpe_decoder, None, None),
+    "Qwen2TokenizerFast":   TokenOpParam('Qwen2TokenizerFast',   HFTokenizerConverter.bpe_tokenizer,
+                                         'BpeDecoder',      HFTokenizerConverter.bpe_decoder, None, None),
     "CodeGenTokenizer":     TokenOpParam('GPT2Tokenizer',   HFTokenizerConverter.bpe_tokenizer,
                                          'BpeDecoder',      HFTokenizerConverter.bpe_decoder, None, None),
     "CLIPTokenizer":        TokenOpParam('CLIPTokenizer',   HFTokenizerConverter.clip_tokenizer,
